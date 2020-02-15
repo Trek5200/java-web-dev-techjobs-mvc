@@ -16,7 +16,7 @@ import static org.launchcode.javawebdevtechjobsmvc.controllers.ListController.co
 @Controller
 @RequestMapping("search")
 public class SearchController {
-
+/** search handler method simply renders the form defined in search.html*/
     @RequestMapping(value = "")
     public String search(Model model) {
         model.addAttribute("columns", columnChoices);
